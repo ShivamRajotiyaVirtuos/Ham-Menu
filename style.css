@@ -1,26 +1,24 @@
-*{
-  font-family: Lato,sans-serif;
+* {
+  font-family: Lato, sans-serif;
   margin: 0;
   padding: 0;
-
-}.ham-menu{
+}
+.ham-menu {
   cursor: pointer;
   display: none;
-
 }
-.navbar{
+.navbar {
   background: black;
   width: 100%;
   color: white;
   display: flex;
-  justify-content:space-around;
-  font-size:xx-large;
+  justify-content: space-around;
+  font-size: xx-large;
   z-index: 999;
   align-items: center;
   height: 60px;
-
 }
-.navbar img{
+.navbar img {
   height: 70px;
 }
 .sidenav {
@@ -36,21 +34,21 @@
   padding-top: 100px;
   margin-top: 60px;
 }
-.login{
+.login {
   display: flex;
   align-items: center;
   gap: 9px;
   /* font-size: 18px; */
 }
-.logo{
+.logo {
   margin-top: 10px;
   font-size: large;
   /* font-weight: 100; */
   display: flex;
   gap: 25px;
-
 }
-.sidenav a , .submenu a {
+.sidenav a,
+.submenu a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 18px;
@@ -59,32 +57,26 @@
   transition: 0.2s;
 }
 
-.sidenav a:hover , .submenu a:hover {
+.sidenav a:hover,
+.submenu a:hover {
   color: #605e5e;
-}
-.submenu .closebtn{
-  /* position: absolute; */
-  font-size: large;
-  /* text-decoration: none; */
-  top: 0;
-  right: 25px; 
 }
 
 .sidenav .closebtn {
   position: absolute;
-  color: aliceblue;font-size: large;
+  color: aliceblue;
+  font-size: large;
   top: 0;
-  right: 25px; 
+  right: 15px;
   margin-left: 50px;
   margin-top: 15px;
-
 }
-.right-icon{
+.right-icon {
   display: flex;
 
   justify-content: space-between;
 }
-.submenu{
+.submenu {
   display: none;
   margin-top: 60px;
   height: 100%;
@@ -98,23 +90,23 @@
   transition: 0.2s;
   padding-top: 60px;
 }
-.ham-footer{
+.ham-footer {
   display: flex;
   flex-direction: column;
   color: white;
   margin-left: 20px;
   font-size: 14px;
-margin-top: 85%;
-gap: 40px;
-
+  margin-top: 85%;
+  gap: 40px;
 }
-@media (max-width: 768px){
-  .ham-menu{
-  display: block;}
-  
+@media (max-width: 768px) {
+  .ham-menu {
+    display: block;
+  }
 }
-@media (min-width:769px){
-  .submenu , .sidenav{
+@media (min-width: 769px) {
+  .submenu,
+  .sidenav {
     display: none;
   }
 }
