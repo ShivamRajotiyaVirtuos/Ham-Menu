@@ -70,6 +70,7 @@
   right: 15px;
   margin-left: 50px;
   margin-top: 15px;
+  cursor:pointer;
 }
 .right-icon {
   display: flex;
