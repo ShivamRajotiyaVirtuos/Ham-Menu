@@ -13,14 +13,14 @@
   </head>
   <body>
     <div id="navbar" class="navbar">
-<span class="container" id ="container" value ="OFF">
-  <div  onclick="openNav()">
-    <div class="bar1"></div>
-    <div class="bar2"></div>
-    <div class="bar3"></div>
-  </div>
-</span>
-      
+      <span class="container" id="container" value="OFF">
+        <div onclick="openNav()">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </span>
+
       <!-- <span style="font-size: large" class="ham-menu" onclick="openNav()"
         ><i style="font-size: large" class="fa-solid fa-bars"></i
       ></span> -->
@@ -34,7 +34,7 @@
         <i onclick="closeNav()" class="fa-solid fa-xmark"></i>
       </span> -->
 
-      <a onclick="openSubNav()">
+      <a onclick="openSubnavMen()">
         <span class="right-icon">
           <span>Men's</span>
           <span>
@@ -46,7 +46,7 @@
         </span>
       </a>
 
-      <a onclick="openSubNav1()">
+      <a onclick="openSubnavWomen()">
         <span class="right-icon">
           <span>Women's</span>
           <span>
@@ -57,45 +57,51 @@
           ></span>
         </span>
       </a>
-      <a>Sale</a>
-      <a>About</a>
-      <a>Sustainability</a>
+      <a href="/collections/sale">Sale</a>
+      <a href="/pages/about-u">About</a>
+      <a href="/pages/copy-of-sustainability">Sustainability</a>
       <div class="ham-footer">
         <div class="login">
-          <i style="font-size: large" class="fa-regular fa-user"></i>
-          <p>Log in</p>
+          <a href="/account/login">
+            <i style="font-size: large" class="fa-regular fa-user"></i>
+            <p>Log in</p>
+          </a>
         </div>
         <div class="logo">
-          <i class="fa-brands fa-square-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
+          <a href="https://www.facebook.com/bottlenco">
+            <i class="fa-brands fa-square-facebook"></i
+          ></a>
+          <a href=" instagram.com/_bottlenco/">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
         </div>
       </div>
     </div>
-    <div id="submenu" class="submenu">
+    <div id="submenuMen" class="submenu">
       <a
         style="font-size: 14px; background-color: rgb(57, 57, 57)"
         class="closebtn"
-        onclick="openNav()"
+        onclick="backtoNav()"
       >
         <i class="fa-solid fa-arrow-left" style="margin-right: 8px"></i>Men's
       </a>
 
-      <a>All</a>
-      <a>Top's</a>
-      <a>Bottom</a>
+      <a href="https://bottlenco.com/collections/mens">All</a>
+      <a href="https://bottlenco.com/collections/mens-tops">Top's</a>
+      <a href="https://bottlenco.com/collections/mens-bottoms">Bottom</a>
     </div>
-    <div id="submenu1" class="submenu">
+    <div id="submenuWomen" class="submenu">
       <a
         style="font-size: 14px; background-color: rgb(57, 57, 57)"
         class="closebtn"
-        onclick="openNav()"
+        onclick="backtoNav()"
       >
         <i class="fa-solid fa-arrow-left" style="margin-right: 8px"></i>Women's
       </a>
 
-      <a>All</a>
-      <a>Top's</a>
-      <a>Bottom</a>
+      <a href="https://bottlenco.com/collections/womens">All</a>
+      <a href="https://bottlenco.com/collections/womens-tops">Top's</a>
+      <a href="https://bottlenco.com/collections/womens-bottoms">Bottom</a>
     </div>
 
     <script src="script.js"></script>
