@@ -12,7 +12,7 @@ function openNav() {
     document.getElementById("submenuMen").style.width = "0";
     document.getElementById("submenuWomen").style.width = "0";
     console.log("close nav");
-    document.getElementById("container").classList.toggle("change");
+    document.getElementById("container").classList.toggle("change");gi
     document.getElementById("container").classList = "container";
   }
 }
